@@ -416,7 +416,7 @@ public class Controller implements Initializable{
                             int sec = (int) seconds % 60;
                             //TODO: convert these correctly
                             String time = String.format(Locale.ENGLISH,"%02d:%02d:%02d", hours, minutes, sec);
-                            btn.setText("Brightness fr " + Integer.toString(f) + " at " + time);
+                            btn.setText("White fr " + Integer.toString(f) + " at " + time);
                             btn.setStyle("-fx-background-color: transparent;");
                             final String vPath = videoPath;
                             final int f2 = f;
@@ -475,7 +475,7 @@ public class Controller implements Initializable{
                             int sec = (int) seconds % 60;
                             //TODO: convert these correctly
                             String time = String.format(Locale.ENGLISH,"%02d:%02d:%02d", hours, minutes, sec);
-                            btn.setText("Brightness fr " + Integer.toString(f) + " at " + time);
+                            btn.setText("Black fr " + Integer.toString(f) + " at " + time);
                             btn.setStyle("-fx-background-color: transparent;");
                             final String vPath = videoPath;
                             final int f2 = f;
